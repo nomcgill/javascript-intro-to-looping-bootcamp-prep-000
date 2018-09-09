@@ -22,7 +22,7 @@ function incrementVariable() {
 }
  
 do {
-  console.log("doo-bee-doo-bee-doo");
+  console.log("___spy");
   incrementVariable();
 } while (i < 5);
 
