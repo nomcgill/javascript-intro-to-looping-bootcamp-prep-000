@@ -17,9 +17,11 @@ function whileLoop(n){
 
 
 function doWhileLoop(array){
- 
- i = i + 1;
-do {
+ function incrementVariable() {
+  i = i + 1;
+ do {
   array.pop;
+  incrementVariable()
   } while (i < 5);
+ }
 }
