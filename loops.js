@@ -24,7 +24,7 @@ function incrementVariable() {
 do {
   console.log("Where's my cheese?");
   incrementVariable();
-} while (i < 5);
+} while (i < 3);
 
 function doWhileLoop(array){
  do {
