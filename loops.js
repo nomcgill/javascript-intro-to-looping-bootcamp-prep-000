@@ -16,10 +16,10 @@ function whileLoop(n){
 }
 
 
+
 function doWhileLoop(array){
  do {
   array.shift()
-  incrementVariable()
   } 
   while (array.length > 0);
 }
