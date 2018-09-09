@@ -15,3 +15,11 @@ function whileLoop(n){
     return 'done'
 }
 
+function incrementVariable() {
+  i = i + 1;
+}
+
+do {
+  console.log("doo-bee-doo-bee-doo");
+  incrementVariable();
+} while (i < 5);
