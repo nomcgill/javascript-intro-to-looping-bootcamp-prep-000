@@ -19,12 +19,11 @@ var i = 0;
  
 function incrementVariable() {
   i = i + 1;
-}
- 
 do {
   console.log("Where's my cheese?");
   incrementVariable();
 } while (i < 3);
+}
 
 function doWhileLoop(array){
  do {
