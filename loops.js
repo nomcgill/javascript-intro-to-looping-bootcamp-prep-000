@@ -22,7 +22,7 @@ function incrementVariable() {
 do {
   console.log("Where's my cheese?");
   incrementVariable();
-} while (i < 3);
+} while (i < 5);
 }
 
 function doWhileLoop(array){
