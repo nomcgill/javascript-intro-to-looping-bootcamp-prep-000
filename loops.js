@@ -19,7 +19,7 @@ function incrementVariable() {
   i = i + 1;
 }
 
-function doWhileLoop(){
+function doWhileLoop(array){
 do {
   console.log("doo-bee-doo-bee-doo");
   incrementVariable();
