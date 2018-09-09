@@ -23,6 +23,6 @@ function doWhileLoop(array){
  do {
   incrementVariable()
   } 
-  while (array.length > 0);
+  while (array.length > 0 && incrementVariable());
  }
 }
