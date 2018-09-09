@@ -19,7 +19,9 @@ function incrementVariable() {
   i = i + 1;
 }
 
+function doWhileLoop(){
 do {
   console.log("doo-bee-doo-bee-doo");
   incrementVariable();
 } while (i < 5);
+}
